@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body{
-    text-align: center;
     font-family: Quicksand;
     font-size: 20pt;
     background: linear-gradient(to right, rgb(255, 190, 69), rgb(255, 85, 113))
 }
 
 #wrapper{
-    margin-top: 120px;
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
 #container1{
@@ -29,4 +28,38 @@ body{
     box-sizing: border-box;
     text-align: center;
     background-color: white;
+}
+
+#score1{
+    font-size: 50px;
+    margin-top: 75px;
+}
+
+#score2{
+    font-size: 50px;
+    margin-top: 75px;
+}
+
+#current{
+    width:100px;
+    height:90px;
+    margin-left: 100px;
+    background-color: rgb(238, 43, 9);
+    margin-top: 50px;
+    font-size: 12pt;
+}
+
+#ngbtn{
+    position: absolute;
+    margin-top: 75px;
+    font-family: Quicksand;
+    font-size: 15pt;
+    border: none;
+    border-style: none;
+    background-color: transparent;
+}
+
+#newbutton{
+    width:20px;
+    height: 20px;
 }
