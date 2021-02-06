@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 20pt;
+    background: linear-gradient(to right, rgb(255, 190, 69), rgb(255, 85, 113))
+}
+
+#wrapper{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#container1{
+  float: left;
+  width: 20%;
+  height: 400px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+}
+
+#container2{
+    float: left;
+    width: 20%;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
