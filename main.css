@@ -63,3 +63,19 @@ body{
     width:20px;
     height: 20px;
 }
+
+#rolldice{
+    position: absolute;
+    margin-top: 250px;
+    font-family: Quicksand;
+    font-size: 15pt;
+    border: none;
+    border-style: none;
+    background-color: transparent;
+}
+
+
+#rolld{
+    width: 10px;
+    height: 20px;
+}
