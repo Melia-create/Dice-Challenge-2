@@ -60,11 +60,11 @@ body{
 }
 
 #newbutton{
-    width:20px;
-    height: 20px;
+    width:18px;
+    height: 18px;
 }
 
-#rolldice{
+#rolldicebtn{
     position: absolute;
     margin-top: 250px;
     font-family: Quicksand;
@@ -76,6 +76,22 @@ body{
 
 
 #rolld{
-    width: 10px;
+    width: 20px;
     height: 20px;
 }
+
+#holdbtn{
+    position: absolute;
+    margin-top: 300px;
+    font-family: Quicksand;
+    font-size: 15pt;
+    border: none;
+    border-style: none;
+    background-color: transparent;
+}
+
+#hold{
+    width: 20px;
+    height: 20px;
+}
+
