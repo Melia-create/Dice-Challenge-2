@@ -42,7 +42,7 @@ body{
 
 #current{
     width:100px;
-    height:90px;
+    height:70px;
     margin-left: 100px;
     background-color: rgb(238, 43, 9);
     margin-top: 50px;
@@ -65,6 +65,7 @@ body{
 }
 
 #rolldicebtn{
+    visibility: hidden;
     position: absolute;
     margin-top: 250px;
     font-family: Quicksand;
@@ -76,11 +77,12 @@ body{
 
 
 #rolld{
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 
 #holdbtn{
+    visibility: hidden;
     position: absolute;
     margin-top: 300px;
     font-family: Quicksand;
@@ -91,7 +93,22 @@ body{
 }
 
 #hold{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
+p{
+    font-size: 15pt;
+    margin-top: 0px;
+}
+
+#die{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 130px;
+}
+
+#diceimg{
+    width:90px;
+    height:90px;
+}
